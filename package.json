@@ -1,0 +1,23 @@
+{
+  "name": "scheduled-workflows",
+  "description": "Build time-based automated workflows with simple schedule strings and dependency management",
+  "version": "1.0.0",
+  "author": "Berke Kiran",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "dev": "ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["ai", "agent", "scheduling", "workflow", "automation", "cron", "astreus"],
+  "dependencies": {
+    "@astreus-ai/astreus": "^0.5.20",
+    "dotenv": "^17.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
